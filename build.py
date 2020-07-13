@@ -748,7 +748,7 @@ def make_input_files():
     
     with open ('mex.com', 'w') as fp: 
         fp.write("%mem=1600mb\n")
-        fp.write("%nprocs=4\n")
+        fp.write("%nprocs=1\n")
         fp.write("#N wB97XD/6-31G(d) opt=ModRedundant FREQ\n")
         fp.write("\n")
         fp.write("CH2O3 ModRedundant - Minimalist working constrained optimisation\n")
